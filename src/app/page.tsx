@@ -1,8 +1,9 @@
+import ResumeModal from "@/components/ResumeModal";
+
 const skills = [
-  "Content Marketing", "SEO", "Google Analytics", "Google Ads",
-  "Facebook Ads", "HubSpot", "Marketing Technology", "UX",
-  "Influencer Marketing", "Video Production", "HTML / CSS",
-  "Project Management",
+  "Strategic Marketing", "Go-to-Market Execution", "Content Marketing",
+  "SEO", "Google Analytics", "Google Ads", "HubSpot", "Facebook Ads",
+  "Partner Enablement", "Marketing Technology", "Project Management", "UX",
 ];
 
 export default function Home() {
@@ -18,19 +19,19 @@ export default function Home() {
           <span className="text-gray-300">Darron Barr</span>
         </h1>
         <p className="max-w-xl text-xl text-gray-400 leading-relaxed">
-          Marketing Leader at Nokia. I align strategy, technology, and creativity
-          to drive results that matter.
+          I&apos;m a marketing leader who believes that the best results come from
+          aligning strategy, execution, and people.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
             href="#about"
-            className="rounded-lg bg-white px-6 py-3 text-sm font-semibold text-gray-950 transition-colors hover:bg-gray-200"
+            className="rounded-lg bg-white px-6 py-3 text-sm font-semibold text-[#0a1628] transition-colors hover:bg-gray-200"
           >
             About me
           </a>
           <a
             href="#contact"
-            className="rounded-lg border border-gray-700 px-6 py-3 text-sm font-semibold text-gray-300 transition-colors hover:border-gray-500 hover:text-white"
+            className="rounded-lg border border-gray-600 px-6 py-3 text-sm font-semibold text-gray-300 transition-colors hover:border-gray-400 hover:text-white"
           >
             Get in touch
           </a>
@@ -44,24 +45,21 @@ export default function Home() {
           <div className="grid gap-12 md:grid-cols-2">
             <div className="flex flex-col gap-6">
               <p className="text-gray-400 leading-relaxed">
-                I&apos;m a marketing leader based in Ottawa, ON, with a passion for
-                aligning strategy, technology, and creativity to deliver meaningful
-                results. Currently at Nokia, I bring years of experience across
-                content marketing, marketing technology, and digital strategy.
+                Strategic and hands-on marketing leader with 20+ years of
+                experience driving growth by connecting marketing, partners, and
+                customers. Currently Marketing &amp; Client Engagement Manager at
+                Nokia in Kanata, ON, leading global marketing across IP, optical,
+                and fixed networks.
               </p>
               <p className="text-gray-400 leading-relaxed">
-                I hold certifications in Google Analytics, HubSpot Inbound
-                Marketing, and LinkedIn marketing, and I&apos;m a former VP of
-                Marketing at itSMF Canada. I studied at Algonquin College of
-                Applied Arts and Technology.
+                Known for a practical approach to solving complex business
+                challenges — from growing training and certification businesses by
+                25% globally, to co-founding and scaling CTE Solutions to
+                successful exit. Former VP of Marketing at CTC TrainCanada and
+                Digital Marketing Director at Dominknow.
               </p>
               <div className="pt-2">
-                <a
-                  href="/resume.pdf"
-                  className="inline-block rounded-lg border border-gray-700 px-5 py-2.5 text-sm font-medium text-gray-300 transition-colors hover:border-gray-500 hover:text-white"
-                >
-                  Download Resume
-                </a>
+                <ResumeModal />
               </div>
             </div>
 
@@ -88,11 +86,11 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-6 py-24">
           <h2 className="mb-4 text-3xl font-bold text-white">Get In Touch</h2>
           <p className="mb-12 max-w-lg text-gray-400 leading-relaxed">
-            I&apos;m always open to connecting with others in marketing, technology,
-            and beyond. Feel free to reach out.
+            I&apos;m always open to connecting — whether you have an opportunity,
+            a question, or just want to say hi.
           </p>
           <div className="flex flex-col gap-6">
-            <div className="flex items-center gap-4 rounded-xl border border-gray-800 bg-gray-900 p-6">
+            <div className="flex items-center gap-4 rounded-xl border border-gray-800 bg-[#0d1f3c] p-6">
               <div className="flex-1">
                 <p className="text-sm font-medium text-gray-500 mb-1">Email</p>
                 <a
@@ -103,12 +101,21 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex flex-col gap-2">
+              <p className="text-sm font-medium text-gray-500">Phone</p>
+              <a
+                href="tel:6136086130"
+                className="text-lg font-medium text-white hover:text-gray-300 transition-colors"
+              >
+                613-608-6130
+              </a>
+            </div>
+            <div className="flex flex-wrap gap-4 pt-2">
               <a
                 href="https://www.linkedin.com/in/darronbarr/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-lg border border-gray-700 px-5 py-2.5 text-sm font-medium text-gray-300 transition-colors hover:border-gray-500 hover:text-white"
+                className="rounded-lg border border-gray-600 px-5 py-2.5 text-sm font-medium text-gray-300 transition-colors hover:border-gray-400 hover:text-white"
               >
                 LinkedIn
               </a>
@@ -116,7 +123,7 @@ export default function Home() {
                 href="https://github.com/darronbarr99-a11y"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-lg border border-gray-700 px-5 py-2.5 text-sm font-medium text-gray-300 transition-colors hover:border-gray-500 hover:text-white"
+                className="rounded-lg border border-gray-600 px-5 py-2.5 text-sm font-medium text-gray-300 transition-colors hover:border-gray-400 hover:text-white"
               >
                 GitHub
               </a>
