@@ -1,8 +1,8 @@
-import Link from "next/link";
-
 const skills = [
-  "TypeScript", "React", "Next.js", "Node.js",
-  "Tailwind CSS", "PostgreSQL", "Git", "Figma",
+  "Content Marketing", "SEO", "Google Analytics", "Google Ads",
+  "Facebook Ads", "HubSpot", "Marketing Technology", "UX",
+  "Influencer Marketing", "Video Production", "HTML / CSS",
+  "Project Management",
 ];
 
 export default function Home() {
@@ -18,8 +18,8 @@ export default function Home() {
           <span className="text-gray-300">Darron Barr</span>
         </h1>
         <p className="max-w-xl text-xl text-gray-400 leading-relaxed">
-          Full-Stack Developer &amp; Designer. I build clean, fast, and accessible
-          web experiences.
+          Marketing Leader at Nokia. I align strategy, technology, and creativity
+          to drive results that matter.
         </p>
         <div className="flex flex-wrap gap-4">
           <a
@@ -44,14 +44,16 @@ export default function Home() {
           <div className="grid gap-12 md:grid-cols-2">
             <div className="flex flex-col gap-6">
               <p className="text-gray-400 leading-relaxed">
-                I&apos;m a full-stack developer based in [Your City] with a passion
-                for building products that are both beautiful and functional. I
-                specialize in React and Node.js, and I care deeply about
-                performance, accessibility, and clean code.
+                I&apos;m a marketing leader based in Ottawa, ON, with a passion for
+                aligning strategy, technology, and creativity to deliver meaningful
+                results. Currently at Nokia, I bring years of experience across
+                content marketing, marketing technology, and digital strategy.
               </p>
               <p className="text-gray-400 leading-relaxed">
-                When I&apos;m not coding, you can find me [your hobbies]. I&apos;m
-                always open to new opportunities and collaborations.
+                I hold certifications in Google Analytics, HubSpot Inbound
+                Marketing, and LinkedIn marketing, and I&apos;m a former VP of
+                Marketing at itSMF Canada. I studied at Algonquin College of
+                Applied Arts and Technology.
               </p>
               <div className="pt-2">
                 <a
@@ -86,22 +88,30 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-6 py-24">
           <h2 className="mb-4 text-3xl font-bold text-white">Get In Touch</h2>
           <p className="mb-12 max-w-lg text-gray-400 leading-relaxed">
-            I&apos;m currently open to new opportunities. Whether you have a project
-            in mind, a question, or just want to say hi — my inbox is always open.
+            I&apos;m always open to connecting with others in marketing, technology,
+            and beyond. Feel free to reach out.
           </p>
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-4 rounded-xl border border-gray-800 bg-gray-900 p-6">
               <div className="flex-1">
                 <p className="text-sm font-medium text-gray-500 mb-1">Email</p>
                 <a
-                  href="mailto:you@example.com"
+                  href="mailto:darronbarr99@gmail.com"
                   className="text-lg font-medium text-white hover:text-gray-300 transition-colors"
                 >
-                  you@example.com
+                  darronbarr99@gmail.com
                 </a>
               </div>
             </div>
             <div className="flex flex-wrap gap-4 pt-4">
+              <a
+                href="https://www.linkedin.com/in/darronbarr/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-gray-700 px-5 py-2.5 text-sm font-medium text-gray-300 transition-colors hover:border-gray-500 hover:text-white"
+              >
+                LinkedIn
+              </a>
               <a
                 href="https://github.com/darronbarr99-a11y"
                 target="_blank"
@@ -109,14 +119,6 @@ export default function Home() {
                 className="rounded-lg border border-gray-700 px-5 py-2.5 text-sm font-medium text-gray-300 transition-colors hover:border-gray-500 hover:text-white"
               >
                 GitHub
-              </a>
-              <a
-                href="https://linkedin.com/in/yourprofile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-lg border border-gray-700 px-5 py-2.5 text-sm font-medium text-gray-300 transition-colors hover:border-gray-500 hover:text-white"
-              >
-                LinkedIn
               </a>
             </div>
           </div>

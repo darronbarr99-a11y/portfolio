@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name | Portfolio",
-  description: "Personal portfolio showcasing my work and experience.",
+  title: "Darron Barr | Marketing Leader",
+  description: "Darron Barr is a marketing leader based in Ottawa, ON, currently at Nokia.",
 };
 
 export default function RootLayout({
